@@ -224,49 +224,6 @@ body.dark-mode .top-bar {
     }
 }
 
-.hero-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-}
-
-.btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.9rem 1.4rem;
-    border-radius: 12px;
-    font-weight: 700;
-    transition: 0.3s ease;
-    border: 1px solid transparent;
-}
-
-.btn-primary {
-    background: transparent;
-    color: var(--text-color);
-    border-color: var(--border-color);
-}
-
-.btn-primary:hover {
-    border-color: var(--accent-color);
-    color: var(--accent-dark);
-    transform: translateY(-2px);
-}
-
-.btn-secondary {
-    background: transparent;
-    color: var(--text-color);
-    border-color: var(--border-color);
-}
-
-.btn-secondary:hover {
-    border-color: var(--accent-color);
-    color: var(--accent-dark);
-    transform: translateY(-2px);
-}
-
 .about-text {
     flex: 1.2;
 }
@@ -681,7 +638,7 @@ footer {
     cursor: pointer;
     box-shadow: var(--shadow);
     display: none;
-    z-index: 999;
+    z-index: 2;
     transition: 0.3s ease;
 }
 
