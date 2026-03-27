@@ -236,9 +236,10 @@ body.dark-mode .top-bar {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.9rem 1.4rem;
+    padding: 0.6rem 0.6rem;
     border-radius: 12px;
     font-weight: 700;
+    font-size: 14px;
     transition: 0.3s ease;
     border: 1px solid transparent;
 }
@@ -330,7 +331,6 @@ body.dark-mode .top-bar {
 
 .exp-item {
     padding: 1.8rem;
-    border-left: 5px solid var(--accent-color);
 }
 
 .exp-header {
@@ -681,7 +681,8 @@ footer {
 }
 
 #backToTop i {
-    font-size: 1.9rem;
+    font-size: 20px;
+    align-self: center;
 }   
 
 #backToTop:hover {
@@ -763,4 +764,27 @@ footer {
     .footer-container {
         flex-direction: column;
     }
+}
+
+#backToTop {
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background: var(--accent-color);
+    color: #0f172a;
+    transition: 0.3s ease;
+    opacity: 0.75;
+}
+
+#backToTop i {
+    font-size: 20px;
+    align-self: center;
+}   
+
+#backToTop:hover {
+    transform: translateY(-3px);
+    background: var(--accent-dark);
 }
