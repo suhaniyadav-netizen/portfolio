@@ -41,6 +41,22 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+#three-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.9;
+}
+
+.top-bar,
+main,
+footer,
+#backToTop {
+    position: relative;
+    z-index: 1;
+}
+
 img {
     max-width: 100%;
     display: block;
